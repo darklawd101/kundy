@@ -131,10 +131,11 @@ body {
 }
 
 .no-style {
-  background: none;       
-  -webkit-background-clip: border-box;
-  background-clip: border-box;
-  
+  background: none !important;             
+  -webkit-background-clip: border-box !important;
+  background-clip: border-box !important;
+  -webkit-text-fill-color: initial !important;
+  color: inherit !important;                
 }
 
 .subtitle {
