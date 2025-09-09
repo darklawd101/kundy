@@ -225,7 +225,7 @@ body {
     var(--accent),
     var(--accent-2)
   );
-  background-size: 800px 100%;
+  background-size: 900px 100%;
   -webkit-background-clip: text;
   background-repeat: no-repeat;
   -webkit-text-fill-color: transparent;
