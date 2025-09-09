@@ -131,9 +131,9 @@ body {
 }
 
 .no-style {
-all: unset;
-font-size: clamp(1.3rem, 1.2rem + 2vw, 2.2rem);
-    line-height: var(--tight);
+  background: none;       
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
   
 }
 
