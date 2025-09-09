@@ -129,6 +129,14 @@ body {
   -webkit-background-clip: text;
   color: transparent;
 }
+
+.no-style {
+all: unset;
+font-size: clamp(1.3rem, 1.2rem + 2vw, 2.2rem);
+    line-height: var(--tight);
+  
+}
+
 .subtitle {
   color: var(--muted);
   font-size: 0.95rem;
